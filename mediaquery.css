@@ -1,0 +1,88 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+
+    body {
+        background-color: whitesmoke;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .question div:target{
+        height: 155px;
+    }
+
+
+
+}
+
+
+
+
+/* Laptop:  992px */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: whitesmoke;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    nav{
+        flex-grow: 1;
+    }
+
+    nav ul{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
+
+    nav ul li{
+        flex-grow: 1;
+        text-align: center;
+        transition: all 500ms;
+    }
+    nav ul li:hover{
+
+        flex-grow:2;
+        border-bottom: 5px solid black;
+    }
+
+    .selling-card{
+        width: 600px;
+        height: 300px;
+        flex-direction: row;
+    }
+    .selling-card:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    .question div:target{
+        height: 130px;
+    }
+    .create-acc{
+        display: flex;
+        
+    }
+    
+    .create-acc-form{
+        width:50%;
+        padding: 2rem;
+    }
+    iframe{
+        width: 50%;
+    }
+    footer{
+        width: 100%;
+    }
+
+
+
+
+}
