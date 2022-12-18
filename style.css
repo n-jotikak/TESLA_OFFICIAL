@@ -120,6 +120,15 @@
     font-weight: bold;
   }
 
+  .header nav{
+    transition: 1s all infinite;
+
+  }
+
+
+
+  /* banner */
+
   .banner{
     padding: 1rem;
   
@@ -162,6 +171,7 @@
     transform: translateY(5px);
     cursor: grabbing;
 }
+
 .card-wrapper{
   display: flex;
   justify-content: center;
@@ -275,6 +285,29 @@
 .num{
 
 }
+
+.progressbar{
+  width: 100%;
+  background-color: lightgray;
+  height: 20px;
+  border-radius: 15px;
+}
+
+
+.progress-value{
+  height: 100%;
+  width: 68%;
+  border-radius: 15px 0 0 15px;
+  background-color: green;
+  color: white;
+  
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* form */
 
@@ -475,3 +508,37 @@ footer section {
 }
 
  */
+
+ /* animation
+
+.slogan{
+  border-right: 4px solid whitesmoke;
+  white-space: nowrap;
+  overflow: hidden;
+
+
+  animation: blink 2s infinite, typing 8s steps(40) infinite;
+}
+
+
+@keyframes typing{
+  0%{
+      width: 0;
+  }
+  100%{
+      width: 100%;
+  }
+}
+
+@keyframes blink{
+  0%{
+      border-color: transparent;
+
+  }
+  50%{
+      border-color: whitesmoke;
+  }
+  100%{
+      border-color: transparent;
+  }
+} */
